@@ -20,7 +20,7 @@ prueba:
   - "speed:120:2"
 
   worlds:
-  - "kitpvp"
+  - "FlatWorld"
 
   users:
   - "luca28pet"
