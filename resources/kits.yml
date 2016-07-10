@@ -1,30 +1,4 @@
 ---
-prueba:
-  items:
-  - "260:0:10"
-  - "267:0:1:Sword Name:weapon_sharpness:3:weapon_knockback:1"
-  helmet: "302:0:1"
-  chestplate: "303:0:1:DEFAULT:armor_protection:1"
-  leggings: "304:0:1:Leggings Name"
-  boots: "305:0:1"
-
-  commands:
-  - "tell {player} you got an awesome kit thanks to AdvancedKits plugin!"
-
-  money: 
-  cooldown:
-    hours: 24
-    minutes: 00
-
-  effects:
-  - "speed:120:2"
-
-  worlds:
-  - "FlatWorld"
-
-  users:
-  - "luca28pet"
-  - "dioconsole"
 Novato:
   # Formato: "id:daño:cantidad:nombre:nombre_del_encantamiento:nivel_del_encantamiento"
 
@@ -60,11 +34,6 @@ Novato:
   # Tiempo en segundos
   effects:
   - "speed:120:2"
-
-  # Si no usas PurePerms, usa 'worlds' para especificar en qué mundos deseas que sea usado este Kit
-  worlds:
-  # Si no usas PurePerms, usa 'users' para especificar que usuarios están disponibles para usar este Kit
-  users:
 Aprendiz:
   items:
   - "260:0:10"
