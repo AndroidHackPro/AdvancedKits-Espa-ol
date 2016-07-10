@@ -49,7 +49,7 @@ Novato:
 
   commands:
   - "tell {player} §fTienes un Kit de §7Novato§f, así que no esperes mucho (§3Crafteo§aLife§f)!"
-  - "xp {player} 5
+  - "xp {player} 5" 
 
   money: 0
   cooldown:
@@ -79,7 +79,7 @@ Aprendiz:
 
   commands:
   - "tell {player} §fTienes un Kit de §aAprendiz§f, suerte en tu aventura (§3Crafteo§aLife§f)!"
-  - "xp {player} 10
+  - "xp {player} 10" 
 
   money: 500
   cooldown:
@@ -102,7 +102,7 @@ Guerrero:
 
   commands:
   - "tell {player} §fTienes un Kit de §fGuerrero§f, muestra quién manda (§3Crafteo§aLife§f)!"
-  - "xp {player} 20
+  - "xp {player} 20" 
 
   money: 1000
   cooldown:
@@ -125,7 +125,7 @@ Maestro:
 
   commands:
   - "tell {player} §fTienes un Kit de §dMaestro§f, muestra quién manda (§3Crafteo§aLife§f)!"
-  - "xp {player} 30
+  - "xp {player} 30" 
 
   money: 2000
   cooldown:
@@ -148,7 +148,7 @@ Leyenda:
 
   commands:
   - "tell {player} §fTienes un Kit de §fGuerrero§f, muestra quién manda (§3Crafteo§aLife§f)!"
-  - "xp {player} 50
+  - "xp {player} 50" 
 
   money: 3000
   cooldown:
@@ -180,7 +180,7 @@ Dios:
 
   commands:
   - "tell {player} §fTienes un Kit de §fGuerrero§f, muestra quién manda (§3Crafteo§aLife§f)!"
-  - "xp {player} 1000
+  - "xp {player} 1000" 
 
   money: 10000
   cooldown:
