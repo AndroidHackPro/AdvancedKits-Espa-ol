@@ -2,23 +2,23 @@ name: AdvancedKits
 main: AdvancedKits\Main
 version: 5.1
 api: [2.0.0]
-author: luca28pet
-description: Add kits to your server
-website: https://github.com/luca28pet/AdvancedKits
+author: luca28pet/AndroidHackPro
+description: Añade kits a tu servidor
+website: crafteolife.nether.co 26417
 commands:
  kit:
-  description: Get a kit!
-  usage: "/kit <kitName>"
+  description: Obtén un Kit!
+  usage: "/kit <nombre del kit>"
   aliases: [ak, advancedkits]
   permission: advancedkits.command
  akreload:
-  descrpition: Reload Kits settings
+  descrpition: Recarga las configuraciones del Kit
   usage: "/akreload"
   permission: advancedkits.admin
 permissions:
  advancedkits.command:
-  description: "Allows the user to run /kit command"
+  description: "Permite a los usuarios correr el comando /kit"
   default: true
  advancedkits.admin:
-  description: "Allows to manage admin features"
+  description: "Permite gestionar las características del administrador"
   default: op
