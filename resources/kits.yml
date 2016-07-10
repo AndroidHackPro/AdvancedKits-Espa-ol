@@ -1,17 +1,5 @@
 ---
-testkit:
-  # Fromat: "id:damage:count:name:ench_name:ench_level"
-
-  # If you want ONLY custom name (no enchantments): "id:damage:count:name"
-
-  # If you don't want enchantments or custom name: "id:damage:count"
-
-  # If you want ONLY enchantments (no custom name): "id:damage:count:DEFAULT:ench_name:ench_level" -- you have to put DEFAULT in the name field
-
-  # If you want more than one enchantment just do: "id:damage:count:name:ench1_name:ench1_level:ench2_name:ench2_level"
-  # or "id:damage:count:DEFAULT:ench1_name:ench1_level:ench2_name:ench2_level" if you don't want a custom item name
-
-  # Please note: You have to write numeric IDs
+prueba:
   items:
   - "260:0:10"
   - "267:0:1:Sword Name:weapon_sharpness:3:weapon_knockback:1"
@@ -23,20 +11,182 @@ testkit:
   commands:
   - "tell {player} you got an awesome kit thanks to AdvancedKits plugin!"
 
+  money: 
   cooldown:
     hours: 24
-    minutes: 30
+    minutes: 00
 
-  # Format: "name:time:amplifier"
-  # Time is in seconds
   effects:
   - "speed:120:2"
 
-  # If you do not use pureperms, use 'worlds' to specify in which worlds you want this kit to be used
   worlds:
   - "kitpvp"
-  # If you do not use pureperms, use 'users' to specify which players will be able to get this kit
+
   users:
   - "luca28pet"
   - "dioconsole"
+Novato:
+  # Formato: "id:daño:cantidad:nombre:nombre_del_encantamiento:nivel_del_encantamiento"
+
+  # Solo si quieres un nombre personalizado (sin encantamientos): "id:daño:cantidad:nombre"
+
+  # Si no quieres encantamientos o nombres personalizados: "id:daño:cantidad"
+
+  # Solo si quieres encantamientos (sin nombres personalizados): "id:daño:cantidad:DEFAULT:nombre_del_encantamiento:nivel_del_encantamiento" -- debes poner DEFAULT en el área del nombre
+
+  # Si quieres más de un encantamiento, solo pones: "id:daño:cantidad:nombre:nombre_del_encantamiento1:nivel_del_encantamiento1:nombre_del_encantamiento2:nivel_del_encantamiento2"
+  # o pones "id:daño:cantidad:DEFAULT:nombre_del_encantamiento1:nivel_del_encantamiento1:nombre_del_encantamiento2:nivel_del_encantamiento2" si no quieres un nombre personalizado para los items
+
+  # NOTA IMPORTANTE: Debes escribir los IDs en números
+  items:
+  - "260:0:5"
+  - "268:0:1:Espada de Novato"
+  - "50:0:5"
+  helmet: "298:0:1"
+  chestplate: "299:0:1"
+  leggings: "300:0:1"
+  boots: "301:0:1"
+
+  commands:
+  - "tell {player} §fTienes un Kit de §7Novato§f, así que no esperes mucho (§3Crafteo§aLife§f)!"
+  - "xp {player} 5
+
+  money: 0
+  cooldown:
+    hours: 01
+    minutes: 00
+
+  # Formato: "nombre:tiempo:amplificador"
+  # Tiempo en segundos
+  effects:
+  - "speed:120:2"
+
+  # Si no usas PurePerms, usa 'worlds' para especificar en qué mundos deseas que sea usado este Kit
+  worlds:
+  # Si no usas PurePerms, usa 'users' para especificar que usuarios están disponibles para usar este Kit
+  users:
+Aprendiz:
+  items:
+  - "260:0:10"
+  - "272:0:1:Espada de Aprendiz:weapon_sharpness:1"
+  - "50:0:10"
+  - "261:0:1"
+  - "262:0:16"
+  helmet: "302:0:1"
+  chestplate: "303:0:1"
+  leggings: "304:0:1"
+  boots: "305:0:1"
+
+  commands:
+  - "tell {player} §fTienes un Kit de §aAprendiz§f, suerte en tu aventura (§3Crafteo§aLife§f)!"
+  - "xp {player} 10
+
+  money: 500
+  cooldown:
+    hours: 02
+    minutes: 00
+
+  effects:
+  - "speed:120:2"
+Guerrero:
+  items:
+  - "260:0:32"
+  - "267:0:1:Espada de Guerrero:weapon_sharpness:2"
+  - "50:0:32"
+  - "261:0:1"
+  - "262:0:32"
+  helmet: "306:0:1"
+  chestplate: "307:0:1"
+  leggings: "308:0:1"
+  boots: "309:0:1"
+
+  commands:
+  - "tell {player} §fTienes un Kit de §fGuerrero§f, muestra quién manda (§3Crafteo§aLife§f)!"
+  - "xp {player} 20
+
+  money: 1000
+  cooldown:
+    hours: 06
+    minutes: 00
+
+  effects:
+  - "speed:120:2"
+Maestro:
+  items:
+  - "322:0:10"
+  - "283:0:1:Espada de Maestro:weapon_sharpness:3"
+  - "50:0:64"
+  - "261:0:1"
+  - "262:0:64"
+  helmet: "306:0:1"
+  chestplate: "307:0:1"
+  leggings: "308:0:1"
+  boots: "309:0:1"
+
+  commands:
+  - "tell {player} §fTienes un Kit de §dMaestro§f, muestra quién manda (§3Crafteo§aLife§f)!"
+  - "xp {player} 30
+
+  money: 2000
+  cooldown:
+    hours: 12
+    minutes: 00
+
+  effects:
+  - "speed:120:2"
+Leyenda:
+  items:
+  - "322:0:32"
+  - "276:0:1:Espada de Leyenda:weapon_sharpness:4"
+  - "50:0:64"
+  - "261:0:1"
+  - "262:0:64"
+  helmet: "306:0:1"
+  chestplate: "307:0:1"
+  leggings: "308:0:1"
+  boots: "309:0:1"
+
+  commands:
+  - "tell {player} §fTienes un Kit de §fGuerrero§f, muestra quién manda (§3Crafteo§aLife§f)!"
+  - "xp {player} 50
+
+  money: 3000
+  cooldown:
+    hours: 18
+    minutes: 00
+
+  effects:
+  - "speed:120:2"
+Dios:
+  items:
+  - "426:0:32"
+  - "276:0:1:Espada de Dios:weapon_sharpness:5"
+  - "50:0:32"
+  - "263:0:64"
+  - "61:0:1"
+  - "58:0:1"
+  - "261:0:1"
+  - "262:0:64"
+  - "262:0:64"
+  - "276:0:1"
+  - "277:0:1"
+  - "278:01"
+  - "279:0:1"
+  - "293:0:1"
+  helmet: "310:0:1:King Helmet:armor_protection:3"
+  chestplate: "311:0:1:Chaleco de Rey:armor_protection:3"
+  leggings: "312:0:1:Pantalones de Rey:armor_protection:3"
+  boots: "313:0:1:Botas de Rey:armor_protection:3"
+
+  commands:
+  - "tell {player} §fTienes un Kit de §fGuerrero§f, muestra quién manda (§3Crafteo§aLife§f)!"
+  - "xp {player} 1000
+
+  money: 10000
+  cooldown:
+    hours: 24
+    minutes: 00
+
+  effects:
+  - "speed:120:2"
 ...
