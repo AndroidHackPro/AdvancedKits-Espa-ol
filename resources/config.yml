@@ -1,13 +1,13 @@
 ---
-# Users are able to get only one kit per life
+# Los usuarios pueden obtener sólo un Kit por vida
 one-kit-per-life: true
 
-# Users are able to get a kit if they log out event if they did not die (only works if one-kit-per-life: true)
+# Los usuarios podrán recuperar su Kit luego de salir del juego, si no mueren (solo funciona si ésta opción esta en TRUE one-kit-per-life: true)
 reset-on-logout: true
 
-# Use built in permission system even if using PurePerms
-force-builtin-permissions: false
+# Usar los sistemas de permisos built, aún si usa PurePerms
+force-builtin-permissions: true
 
-# Sign text (capitals don't matter)
-sign-text: "[AdvancedKits]"
+# Texto del cartel (Puedes cambiarlo por el que quieras, las mayúsculas no importan)
+sign-text: "[CrafteoLife]"
 ...
