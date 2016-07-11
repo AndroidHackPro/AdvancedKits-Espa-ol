@@ -87,13 +87,13 @@ Maestro:
   - "50:0:64"
   - "261:0:1"
   - "262:0:64"
-  helmet: "306:0:1"
-  chestplate: "307:0:1"
-  leggings: "308:0:1"
-  boots: "309:0:1"
+  helmet: "314:0:1"
+  chestplate: "315:0:1"
+  leggings: "316:0:1"
+  boots: "317:0:1"
 
   commands:
-  - "tell {player} §fTienes un Kit de §dMaestro§f, muestra quién manda (§3Crafteo§aLife§f)!"
+  - "tell {player} §fTienes un Kit de §dMaestro§f, eres sabio (§3Crafteo§aLife§f)!"
   - "xp {player} 30" 
 
   money: 2000
@@ -110,13 +110,13 @@ Leyenda:
   - "50:0:64"
   - "261:0:1"
   - "262:0:64"
-  helmet: "306:0:1"
-  chestplate: "307:0:1"
-  leggings: "308:0:1"
-  boots: "309:0:1"
+  helmet: "310:0:1"
+  chestplate: "311:0:1"
+  leggings: "312:0:1"
+  boots: "313:0:1"
 
   commands:
-  - "tell {player} §fTienes un Kit de §fGuerrero§f, muestra quién manda (§3Crafteo§aLife§f)!"
+  - "tell {player} §fTienes el Kit de una §bLeyenda§f, has honor a tu nombre (§3Crafteo§aLife§f)!"
   - "xp {player} 50" 
 
   money: 3000
@@ -142,13 +142,13 @@ Dios:
   - "278:01"
   - "279:0:1"
   - "293:0:1"
-  helmet: "310:0:1:King Helmet:armor_protection:3"
+  helmet: "310:0:1:Corona de Rey:armor_protection:3"
   chestplate: "311:0:1:Chaleco de Rey:armor_protection:3"
   leggings: "312:0:1:Pantalones de Rey:armor_protection:3"
   boots: "313:0:1:Botas de Rey:armor_protection:3"
 
   commands:
-  - "tell {player} §fTienes un Kit de §fGuerrero§f, muestra quién manda (§3Crafteo§aLife§f)!"
+  - "tell {player} §fTienes el Kit de §eDios§f, eres invencible (§3Crafteo§aLife§f)!"
   - "xp {player} 1000" 
 
   money: 10000
